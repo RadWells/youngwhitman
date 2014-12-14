@@ -40,12 +40,11 @@ i, em { font-style: italic }
 
 
 body {
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(0, 40, 200)), to(rgb(10, 10, 0)));
-    background:    -webkit-radial-gradient(rgb(0, 40, 200), rgb(10, 10, 0));
-    background:    -moz-radial-gradient(rgb(0, 40, 200), rgb(10, 10, 0));
-    background:    -ms-radial-gradient(rgb(0, 40, 200), rgb(10, 10, 0));
-    background:    -o-radial-gradient(rgb(0, 40, 200), rgb(10, 10, 0));
-    background:    radial-gradient(rgb(0, 40, 200), rgb(10, 10, 0));
+    background: url('whitmanmap.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     font-family: 'IM Fell DW Pica', serif;
 }
 
