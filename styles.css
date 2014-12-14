@@ -61,7 +61,7 @@ body {
 .impress-enabled .step.active { opacity: 1 }
 .slide {
     display: block;
-    width: 800px;
+    width: 750px;
     height: 600px;
     padding: 40px 60px;
     background-image: url('seamless_paper_texture.png');
